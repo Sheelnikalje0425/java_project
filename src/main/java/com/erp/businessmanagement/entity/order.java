@@ -42,6 +42,10 @@ public class order {
     // 👉 Constructors
     public order() {}
 
+    public order(Integer id) {
+        this.id = id;
+    }
+    
     public order(Integer id, String customerName, String address, String contactNumber, Date orderDate,
                  String sofaType, Integer quantity, Status status, Date expectedDelivery, String notes) {
         this.id = id;

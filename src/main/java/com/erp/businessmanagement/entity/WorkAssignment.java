@@ -35,6 +35,11 @@ public class WorkAssignment {
     @ManyToOne
     @JoinColumn(name = "model_id")
     private SofaModel model;
+    
+    @ManyToOne
+    @JoinColumn(name = "sofa_model_id") // FK column in work_assignment table
+    private SofaModel sofaModel;
+
 
     @ManyToOne
     @JoinColumn(name = "design_id")

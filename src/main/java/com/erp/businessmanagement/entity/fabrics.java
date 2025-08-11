@@ -15,6 +15,10 @@ public class fabrics {
 
     // 👉 Constructors
     public fabrics() {}
+    
+    public fabrics(Integer id) {
+        this.id = id;
+    }
 
     public fabrics(Integer id, String fabricType) {
         this.id = id;

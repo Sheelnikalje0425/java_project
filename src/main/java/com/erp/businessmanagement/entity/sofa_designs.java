@@ -18,7 +18,10 @@ public class sofa_designs {
     private SofaModel sofaModel;
 
     // 👉 Constructors
-    public sofa_designs() {
+    public sofa_designs() {}
+    
+    public sofa_designs(Integer id) {
+        this.id = id;
     }
 
     public sofa_designs(Integer id, String photoPath, SofaModel sofaModel) {

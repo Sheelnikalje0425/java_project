@@ -9,7 +9,7 @@ public class SofaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     private String modelName;
     private String material;
@@ -22,16 +22,17 @@ public class SofaModel {
     // Constructors
     public SofaModel() {}
 
-    public SofaModel(Long id) {
+    
+    public SofaModel(Integer id) {
         this.id = id;
     }
 
     // Getters and setters
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

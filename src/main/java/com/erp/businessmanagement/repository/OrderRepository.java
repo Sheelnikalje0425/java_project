@@ -6,3 +6,4 @@ import com.erp.businessmanagement.entity.order;
 public interface OrderRepository extends JpaRepository<order, Integer>{
 
 }
+
